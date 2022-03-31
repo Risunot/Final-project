@@ -1,0 +1,279 @@
+/* GENERAL */
+body {
+    color:#323232;
+    background: #eeefed;
+    font-family: Source Sans Pro sans-serif;
+}
+
+.group::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+} 
+
+/* CONTACT */
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.contact-bar {
+    color: #fff;
+    background: #39a3d4;
+    height: 84px;
+}
+
+.contact {
+    float: left;
+    margin-top: 29px;
+    font-size: 14px;
+}
+
+.contact li {
+    margin-right: 70px;
+}
+
+.social {
+    float: right;
+    margin-top: 18px;
+}
+
+.social-icon {
+    display: block;
+    height: 48px;
+    width: 48px;
+    line-height: 46px;
+    background: #eeefed;
+    color: #989898;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.social-icon:hover, 
+.social-icon:focus {
+    color: #fff;
+    background: #5bd0ec;
+}
+
+/* NAVIGATION */
+
+.nav-bar {
+    background: #f2f2f2;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: block;
+    background: url(../Final-project/image/logo.png) 0 0 no-repeat;
+    width: 198px;
+    height: 71px;
+    background-size: 169px;
+    margin-top: 24px;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation li {
+    border-left: 1px solid #cecece;
+}
+
+.navigation li:last-child {
+    border-right: 1px solid #cecece;
+}
+.navigation a {
+    color: #a6a6a6;
+    display: block;
+    width: 136px;
+    height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navigation .fas {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 28px;
+}
+
+.selekted a,
+.navigation a:hover,
+.navigation a:focus {
+    color: #de5728;
+}
+
+
+/* ARTICLE */
+
+.text-center {
+    text-align: center;
+}
+
+.post-header {
+    height: 166px;
+    background: url(../Final-project/image/cover.jpg) center -200px no-repeat;
+}
+
+.post-title {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    background: #de5728;
+    padding: 18px 46px;
+    border-radius: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-top: 36px;
+}
+
+.post-content {
+    padding-bottom: 150px;
+}
+
+.post-content h2 {
+    font-weight: 400;
+    color: #323232;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.controls {
+    width: 624px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.controls a {
+    font-size: 17px;
+    font-weight: 300;
+    color: #39a3d4;
+    text-transform: uppercase;
+    padding: 0 25px;
+    line-height: 48px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.controls a:hover,
+.controls a:focus,
+.controls .selected a {
+    color: #fff;
+    background: #39a3d4;
+    border-radius: 4px;
+}
+
+.galery img {
+    width: 383px;
+    height: 192px;
+}
+
+.galery {
+    margin-top: 10px;
+    font-size: 0;
+}
+
+/* FOOTER */
+
+.pre-footer {
+    color: #fff;
+    background: #323232;
+    text-align: center;
+}
+
+.pre-footer .container {
+    width: 400px;
+    padding: 40px 0 60px 0;
+}
+
+.pre-footer p {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+.pre-footer strong {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.pre-footer .contact li:first-child {
+    margin-left: 37px;
+}
+
+.pre-footer .contact li {
+    margin-right: 56px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer p {
+    color: #a6a6a6;
+    float: left;
+    margin: 32px 10px;
+}
+
+footer .menu {
+    margin: 32px 0;
+}
+
+footer p a {
+    color: #e75652;
+    font-weight: 600;
+}
+
+footer .menu {
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+
+footer .menu a {
+    color: #989898;
+}
+
+footer .menu a:hover,
+footer .menu a:focus {
+    text-decoration: underline;
+}
+
+footer li::after {
+    content: "/" ;
+    color: #989898;
+    margin: 0 8px;
+}
+
+footer li:last-child::after{
+    content: "";
+}
