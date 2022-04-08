@@ -1,4 +1,12 @@
 /* GENERAL */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color:#323232;
     background: #eeefed;
@@ -24,7 +32,7 @@ li {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 } 
 
@@ -92,9 +100,8 @@ li {
 .logo a {
     display: block;
     background: url(../Final-project/image/logo.png) 0 0 no-repeat;
-    width: 198px;
+    width: 16.92307692307692%;
     height: 71px;
-    background-size: 169px;
     margin-top: 24px;
 }
 
