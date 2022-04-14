@@ -69,29 +69,29 @@ li {
 
 .contact {
     float: left;
-    margin-top: 29px;
-    font-size: 14px;
+    margin-top: 1.8rem;
+    font-size: 0.8rem;
 }
 
 .contact li {
-    margin-right: 70px;
+    margin-right: 4.3rem;
 }
 
 .social {
     float: right;
-    margin-top: 18px;
+    margin-top: 1.1rem;
 }
 
 .social-icon {
     display: block;
-    height: 48px;
-    width: 48px;
-    line-height: 46px;
+    height: 3rem;
+    width: 3rem;
+    line-height: 2.8rem;
     background: var(--background-color-social-icon-bg);
     color: var(--footer-color-social-icon-color);
     text-align: center;
-    border-radius: 2px;
-    margin-left: 2px;
+    border-radius: 0.1rem;
+    margin-left: 0.125rem;
 }
 
 .social-icon:hover, 
@@ -107,15 +107,14 @@ li {
 
 .logo {
     float: left;
-    height: 6.068376068376068%;
     width: calc(100% - 33rem);
 }
 
 .logo a {
     display: block;
     background: url(../Final-project/image/logo.png) 0 0 no-repeat;
-    height: 71px;
-    margin-top: 24px;
+    height: 4.4rem;
+    margin-top: 1.5rem;
 }
 
 .navigation {
@@ -123,12 +122,13 @@ li {
 }
 
 .navigation li {
-    border-left: 1px solid var(--navigation-li-border);
+    border-left: 0.0625rem solid var(--navigation-li-border);
 }
 
 .navigation li:last-child {
-    border-right: 1px solid var(--navigation-li-border);
+    border-right: 0.0625rem solid var(--navigation-li-border);
 }
+
 .navigation a {
     color: var(--nav-a-footer-p-color);
     display: block;
@@ -141,8 +141,8 @@ li {
 
 .navigation .fas {
     display: block;
-    padding-bottom: 10px;
-    padding-top: 28px;
+    padding-bottom: 0.6rem;
+    padding-top: 1.75rem;
 }
 
 .selekted a,
@@ -165,43 +165,43 @@ li {
 
 .post-title {
     color: var(--text-color);
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 600;
     background: var(--nav-bar-post-title-color);
-    padding: 18px 46px;
-    border-radius: 7px;
+    padding: 1.125rem 2.8rem;;
+    border-radius: 0.4rem;
     display: inline-block;
     text-transform: uppercase;
-    letter-spacing: -2px;
-    margin-top: 36px;
+    letter-spacing: -0.125rem;
+    margin-top: 2.25rem;
 }
 
 .post-content {
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
 }
 
 .post-content h2 {
     font-weight: 400;
     color: var(--body-h2-color-footer-bg);
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 1.875rem;
+    line-height: 2.625rem;
 }
 
 .controls {
-    width: 624px;
-    margin: 50px auto;
+    width: 39rem;
+    margin: 3.1rem auto;
     text-align: center;
 }
 
 .controls a {
-    font-size: 17px;
+    font-size: 1.063rem;
     font-weight: 300;
     color: var(--contact-bar-controls-a-hover);
     text-transform: uppercase;
-    padding: 0 25px;
-    line-height: 48px;
+    padding: 0 1.563rem;
+    line-height: 3rem;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .controls a:hover,
@@ -209,16 +209,16 @@ li {
 .controls .selected a {
     color: var(--text-color);
     background: var(--contact-bar-controls-a-hover);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .galery img {
-    width: 383px;
-    height: 192px;
+    width: 23.938rem;
+    height: 12rem;
 }
 
 .galery {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-size: 0;
 }
 
@@ -230,42 +230,42 @@ li {
 }
 
 .pre-footer .container {
-    width: 400px;
-    padding: 40px 0 60px 0;
+    width: 25rem;
+    padding: 2.5rem 0 3.75rem 0;;
 }
 
 .pre-footer p {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
-    line-height: 26px;
+    line-height: 1.6rem;
 }
 
 .pre-footer strong {
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 600;
     text-transform: none;
 }
 
 .pre-footer .contact li:first-child {
-    margin-left: 37px;
+    margin-left: 2.3rem;
 }
 
 .pre-footer .contact li {
-    margin-right: 56px;
+    margin-right: 4.188rem;
 }
 
 footer {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 footer p {
     color: var(--nav-a-footer-p-color);
     float: left;
-    margin: 32px 10px;
+    margin: 2rem 0.625rem;
 }
 
 footer .menu {
-    margin: 32px 0;
+    margin: 2rem 0;
 }
 
 footer p a {
@@ -291,7 +291,7 @@ footer .menu a:focus {
 footer li::after {
     content: "/" ;
     color: var(--footer-color-social-icon-color);
-    margin: 0 8px;
+    margin: 0 0.5rem;
 }
 
 footer li:last-child::after{
@@ -314,7 +314,7 @@ footer li:last-child::after{
 
     .post-title {
         margin-left: 6rem;
-        font-size: 35px;
+        font-size: 2.188rem;
     }
 }
 
@@ -329,11 +329,11 @@ footer li:last-child::after{
 
     .post-title {
         margin-left: 6rem;
-        font-size: 35px;
+        font-size: 2.188rem;
     }
 
     .galery .container {
-        width: 766px;
+        width: 47.875rem;
     }
 }
 
@@ -355,7 +355,7 @@ footer li:last-child::after{
     }
 
     .galery .container {
-        width: 766px;
+        width: 47.875rem;
     }
     
     .text-center {
